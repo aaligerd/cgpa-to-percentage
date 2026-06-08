@@ -9,6 +9,9 @@ const nextConfig = {
   reactCompiler: true,
   output: 'export',
   outputFileTracingRoot: __dirname,
+  turbopack: {
+    root: __dirname,
+  },
 };
 
 export default nextConfig;
